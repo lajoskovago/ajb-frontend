@@ -9686,6 +9686,17 @@ padding: 0px;
   .counter_block{
     text-align: center;
   }
+  .subNavCategorii
+  {
+    margin-left:5.5%;
+  }
+  .subCategorii{
+    margin-left:3%;
+  }
+  .subCategorii > i
+{
+  display: none
+}
  /*slider*/
  .bt-main-slider .bt-item-slide{height: 400px;}
  .bt-main-slider .bt-item-slide .big-title{font-size: 35px;} 
