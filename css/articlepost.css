@@ -1,0 +1,23 @@
+.card-post{
+  border-radius:10px;
+  padding:10px;
+}
+
+.image-post{
+  border-radius:10px 10px 10px 10px
+}
+
+.post-text {
+  font-family: 'Oswald',sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(22, 76, 138);
+}
+.post-title{
+  font-family: 'Oswald',sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(22, 76, 138);
+  font-weight: bold;
+}
+
+
+

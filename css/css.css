@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #656565;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fcfcfc;
+}
+
+/* Menu Area */
+
+@media (max-width: 767px) {
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239,104,47, 0.54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border: solid 2px #ff520073;
+    margin-right: 12%;
+    border-radius: 5px;
+  }
+  .dropdown-menu {
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu {
+    box-shadow: 0.1px 1.1px 6px 0.2px #00000096;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar.bg-light.top-bar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239,104,47, 0.54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border: solid 2px #ff520073;
+    margin-right: 12%;
+    border-radius: 5px;
+  }
+  .dropdown-menu {
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+.list-group li > .socialLinks i:hover {
+  color: #ff5200;
+}
+.list-group li > .socialLinks i {
+  color: #5e5e5e;
+}
+.list-group li i {
+  font-size: 17px;
+  color: #ff5200;
+  border-left: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+}
+.navbar {
+  padding: 0px;
+}
+.dropdown-menu > a:link {
+  font-weight: bold;
+}
+
+.list-group-item.topBar {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background-color: #f8f9fa;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+}
+
+/* Menu Area */
+
+/* Footer Area */
+
+.page-footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #1a1a1a;
+  color: #ababab;
+  font-size: 16px;
+}
+
+.headFooter {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-top a {
+  color: #ababab;
+  break-after: always;
+}
+
+hr.footer-title {
+  max-width: 2.6rem;
+  border-width: 0.15rem;
+  border-color: #ff5200;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+
+hr.copyright {
+  border-width: 0.05rem;
+  border-color: #ababab;
+  margin-left: 0px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  opacity: 0.15;
+}
+
+.footer-noutati li {
+  line-height: 30px;
+  border-bottom: 1px solid #7c75752c;
+  padding: 5px;
+}
+
+.despre-noi {
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+#footer-logo {
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.footer-stiri li {
+  line-height: 30px;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  background: #222222;
+}
+
+.footer-stiri a:hover {
+  color: #f8eae4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-noutati a:hover {
+  color: #f8eae4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-contact a:hover {
+  color: #f8eae4;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.citesteArticol
+{
+  color:#de5134;
+font-weight: bold;
+}
+
+.footer-contact li {
+  line-height: 30px;
+}
+
+.footer-contact a {
+  line-height: 50px;
+}
+
+.element1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.element2 {
+  display: inline-block;
+}
+
+.fab {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #ff5200;
+}
+
+.fas {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #ff5200;
+}
+
+.footer-contact .fas {
+  font-size: 18px;
+}
+
+.footer-top {
+  padding-bottom: 30px;
+}
+
+.footer-copyright {
+  background-color: #1a1a1a;
+  border-top: 1px solid #7c75752c;
+}
+
+.logoAJB {
+  width: 230px;
+  opacity: 0.7;
+}
+/* Footer Area */
