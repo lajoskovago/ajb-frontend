@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.head-regulamente  {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  background-color: #fdfdfd;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #f78a58;
+  margin-bottom: 18px;
+}
+.head-Formulare
+{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background-color: #fdfdfd;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f78a58;
+    margin-bottom: 18px;
+}
+
+.head-federatie {
+  width: 320px;
+}
+.head-consiliu{
+  width: 400px;
+}
+.head-adunareGenerala {
+  width: 380px;
+}
+.comisii .list-item{
+  color: #656565;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.head-consiliu {
+  width: 320px;
+}
+
+.h3Documente {
+  padding-left: 5px;
+  width: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.divider-subtitle {
+  border-bottom: 2px solid #f78a58;
+  opacity: 0.3;
+  margin-top: 0%;
+}
+
+.tabs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-tabs li a {
+  color: #262626;
+}
+li.nav-item {
+  padding: 2px;
+}
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  background: #8080801a;
+  padding: 10px 15px;
+  color: #000;
+}
+.nav-tabs li a:hover {
+  color: #f78a58;
+}
+div#pills-tabContent {
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 6px 6px 5px -2px #ddd;
+}
+.nav .nav-link.active {
+  color: #f6eeeb;
+  margin-bottom: 1px;
+  border-bottom-color: #f78a58;
+  background: #f78a58;
+}
+.cardParteneri {
+  margin-top: 20px;
+  height: 200px;
+  width: 18rem;
+  margin-bottom: 20px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  border-radius: 5px;
+  margin: 1px;
+  background: #8080801a;
+}
+
+@media (max-width: 767px) {
+  .nav-pills {
+    display: unset;
+  }
+  .h3Documente {
+  
+    font-size:small;
+  }
+}
+.wordIcon {
+  width: 30px;
+}
+.pdfIcon {
+  width: 30px;
+}

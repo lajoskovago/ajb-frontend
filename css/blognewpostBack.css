@@ -1,0 +1,69 @@
+.blogAddNewPostBack {
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    background-color: #f0e9e9e0;
+
+}     
+.first-row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post{
+    padding-bottom: 15px;
+    padding-top: 13px;
+    margin-top:13px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f0e9e9e0;
+    border-radius: 10px;
+
+}
+.container{
+    border-radius: 10px;
+    background-color: white;
+    margin-top:20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.number-section{
+    border-radius: 10px;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom: 0;
+}
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color:white;
+
+}
+.btn-adauga{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(104, 172, 66);
+}
+.btn-sterge{
+background-color: rgb(209, 79, 79);
+}
+.btn-editeaza{
+background-color: rgb(53, 112, 180);
+}
+.btn-nrPost{
+    color:black;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.page-link{
+    color:black;
+    border-radius: 10px;
+}
+.pagination{
+    background-color: white;
+}

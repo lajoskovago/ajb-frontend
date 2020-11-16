@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #d8d8d8e0;
+  }
+  
+  input[type="text"] {
+    padding: 12px 20px;
+    outline: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgb(134, 128, 128);
+    border-radius: 15px;
+  }
+  p.article {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  #articleTitle {
+    width: 100%;
+  }
+  .card-without-footer {
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+  }
+  
+  .card .titluCard {
+    margin-bottom: 30px;
+  }
+  
+  .btn.btn-block {
+    padding: 12px 10px;
+  }
+  .categoria {
+    margin-top: 20%;
+    box-shadow: 0px 10px 20px rgb(134, 128, 128);
+    border-radius: 8px;
+  }
+  .buttongreen {
+    width: 55%;
+    border-radius: 12px;
+    padding: 12px 0px;
+  }
+  .pozaArt {
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  .textArea {
+    margin-top: 5px;
+  }
+  

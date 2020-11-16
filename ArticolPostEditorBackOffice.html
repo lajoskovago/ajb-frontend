@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/blognewpost.css" />
+
+    <title>Asociatia Judeteana de Baschet Bihor</title>
+
+    <script
+      src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+
+    <script>
+      tinymce.init({
+        selector: "#editor",
+        menubar: false,
+        toolbar:
+          "bold italic | " +
+          "alignleft aligncenter " +
+          "alignright alignjustify | lists  | " +
+          "removeformat |  ",
+      });
+    </script>
+  </head>
+
+  <body class="blogAddNewPost">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="article" for="articleTitle">Article Title</p>
+          <form class="article">
+            <input
+              type="text"
+              id="articleTitle"
+              name="articleTitle"
+              placeholder="Article title input "
+            />
+          </form>
+          <div class="textArea">
+            <form class="article" method="post">
+              <textarea id="editor">Hello, World!</textarea>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="categoria">
+            <div class="card-without-footer">
+              <div class="card-body">
+                <h4 class="card-title titluCard">Alege categoria</h4>
+                <form method="POST" class="login-validation" novalidate="">
+                  <div class="form-group">
+                    <div class="custom-checkbox custom-control">
+                      <input
+                        type="checkbox"
+                        name="remember1"
+                        id="remember1"
+                        class="custom-control-input"
+                      />
+                      <label for="remember1" class="custom-control-label"
+                        >Nume Categorie</label
+                      >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-checkbox custom-control">
+                      <input
+                        type="checkbox"
+                        name="remember2"
+                        id="remember2"
+                        class="custom-control-input"
+                      />
+                      <label for="remember2" class="custom-control-label"
+                        >Nume Categorie</label
+                      >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-checkbox custom-control">
+                      <input
+                        type="checkbox"
+                        name="remember3"
+                        id="remember3"
+                        class="custom-control-input"
+                      />
+                      <label for="remember3" class="custom-control-label"
+                        >Nume Categoriee</label
+                      >
+                    </div>
+                  </div>
+
+                  <p class="pozaArt">Poza articol</p>
+                  <button
+                    type="button"
+                    class="btn btn-success btn-block buttongreen"
+                  >
+                    Adauga poza <i class="fas fa-plus"></i>
+                  </button>
+                  <br />
+                  <div class="form-group m-0">
+                    <button type="button" class="btn btn-light btn-block">
+                      Inapoi la lista de articole
+                    </button>
+                    <button type="button" class="btn btn-primary btn-block">
+                      Adauga articolul
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
