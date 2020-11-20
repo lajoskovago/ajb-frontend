@@ -1,0 +1,113 @@
+.rowParteneri 
+{
+    margin-left:0px;
+}
+#map {
+	height: 200px;
+	width:100%;
+	border-radius:20px;
+	text-align:center;
+	margin-right:15%;
+	position:relative;
+	margin-bottom:1%;
+}
+.underline04 {
+    display: inline-block;
+    padding-bottom: 4px;
+    position: relative;
+}
+.h3Contact {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.45;
+    margin-top: 6px;
+}
+.underline04::before {
+    bottom: 7px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 30px;
+}
+.underline04::after {
+    background: rgba(133, 133, 133, 0.5);
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 3px auto 5px;
+    width: 250px;
+   
+}
+.title-left.underline04::before {
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+.title-left.underline04::before
+{
+    background-color: #de5134;
+}
+.title-left.underline04::after {
+    width: auto;
+    margin-left: 2px;
+}
+.contact
+{
+    margin-left:10%;
+}
+.adresaHarta {
+    margin-left: 0;
+    margin-bottom: 1.625em;
+}
+.listContact
+{
+    list-style: none;
+    margin-left: -7%;
+    margin-top: 2%;
+}
+
+.lastRowParteneri
+{
+    margin-left:20%;
+}
+
+ .bg-1 {
+    background-color: #de5134;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.dropDownTable
+{
+    margin-right: 7%;
+}
+.headTable
+{
+    color:#656565;
+}
+
+@media (max-width: 767px) {
+    .lastRowParteneri
+    {
+        margin-left:0%;
+    }
+    #map 
+    {
+        width:142%;
+    }
+    .firstRowParteneri, .lastRowParteneri
+    {
+        margin-left:12%;
+    }
+
+}
+
+@media (max-width: 577px) {
+    #map 
+    {
+        width:92%;
+    }
+}
