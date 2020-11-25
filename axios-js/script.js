@@ -1,27 +1,33 @@
-const createLi = (article) => {
-    const li = document.createElement('li');
-    // add user details to `li`
-    li.textContent = `${article.id}: ${article.title} ${aritcle.subtitle} ${article.content}`;
-    return li;
+const createDiv = (photo) => {
+    const div = document.createElement('div');
+    div.textContent = `${photo.id}: ${photo.title} ${photo.thumbnailUrl}`;
+    return div;
 };
 
-const appendToDOM = (articles) => {
+const appendToDOM = (photos) => {
     const ul = document.querySelector('ul');
-    //iterate over all users
-    articles.map(article => {
-        ul.appendChild(createLi(article));
+    photos.map(photo => {
+       
+        document.getElementById("id").innerHTML=photo.id;
+        document.getElementById("title").innerHTML=photo.title;
+        // document.getElementById("url").href=photo.url;
+        var img = document.createElement("img");
+        img.src = photo.thumbnailUrl;
+        var src = document.getElementById("img-article");
+        src.appendChild(img);
+        ul.appendChild(createLi(photo));
+        
     });
 };
 
-const fetchArticles = () => {
-    axios.get('http://api.ajbbihor.ro/api/article/list')
+
+const fetchPhotos = () => {
+    axios.get('https://jsonplaceholder.typicode.com/photos')
         .then(response => {
-            const articles = response.data.data;
-            console.log(`GET list articles`, articles);
-            // append to DOM
-            appendToDOM(articles);
+            const photos = response.data;
+            appendToDOM(photos);
         })
         .catch(error => console.error(error));
 };
 
-fetchArticles();
+fetchPhotos();

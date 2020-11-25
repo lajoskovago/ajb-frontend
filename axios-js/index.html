@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Axios in JavaScript</title>
-    </head>
-    <body>
-        <div>
-            <h1>List</h1>
-            <ul></ul>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Article List</title>
+
+
+    <link href="css/articlelist.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-4">
+
+                <div class="card card-post mt-4 mb-4">
+
+                    <div class="card-body">
+                        <!-- <div id="url"></div> -->
+                        <!-- <img class="card-img img-fluid" src="url" alt=""> -->
+                        <div id="img-article"></div>
+                        <p class="card-text" id="id"> <small class="text-muted"></small></p>
+
+                        <h4 class="card-title post-title" id="title"></h4>
+                        <br>
+                        <!-- <p class="card-text post-text"></p> -->
+
+                        <button type="button" class="btn btn-light btn-sm btn-text">Citeste tot articolul
+                        </button>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+    </div>
+   
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>
